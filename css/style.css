@@ -1,0 +1,72 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"),
+	url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #262729;
+	padding: 50px;
+}
+
+.page {
+	background-color: rgb(205, 240, 255);
+	font-size: 24px;
+	padding: 50px;
+}
+
+.block {
+	max-width: 100px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.video {
+	color: blue;
+	font-weight: 800;
+}
+
+.form__input {
+	border: solid 1px darkslategrey;
+	border-radius: 4px;
+	color: blueviolet;
+	padding: 10px 10px;
+	margin-bottom: 25px;
+	min-width: 400px;
+}
+
+.form__label {
+	color: blueviolet;
+} 
+
+.search__button {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.search__img {
+	max-width: 100%;
+	opacity: 0.7;
+}
+
+.search__img:hover {
+	opacity: 1;
+}
+
+.search {
+	display: inline-block;
+}
+
+.search__form {
+	display: none;
+}
+
+.search._active .search__form {
+	display: block;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 25</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="video">Відео JS - DOM.</div>
+			<br>
+			Задача 1<br>
+			<br>
+			<div data-say-hi="yes">Привіт!</div><br>
+			див. script.js:161.<br>
+			<br>
+			Задача 2<br>
+			<br>
+			<ul>
+				<li class="names">Корчи</li>
+				<li class="names">Йончи</li>
+			</ul>
+			<br>
+			див. script.js:171.<br>
+			<br>
+			Задача 3<br>
+			<br>
+			<div class="like"></div>
+			<div class="subscribe"></div>
+			<div class="like subscribe"></div>
+			див. script.js:180.<br>
+			<br>
+			Задача 4 - при такому записі викличе помилку, <br>а якщо використаємо querySelector, тоді пункт добавиться в кінець списку li, після "Пункт 2".<br>
+			<br>
+			<div class="video">Відео JS - Розміри, прокрутка, координати елементів.</div>
+			<br>
+			Задача 1 - ширина полоси прокрутки = 23px. - див. script.js:194.<br>
+			<br>
+			Задача 2 - див. script.js:208.<br>
+			<br>
+			Задача 3 - див. script.js:219.<br>
+			<br>
+			<div class="video">Відео JS - Події.</div>
+			<br>
+			Задача<br>
+			<br>
+			<div class="search">
+				<button type="button" class="search__button">
+					<img class="search__img" src="img/qw.png" alt="glass">
+				</button>
+				<form class="search__form form" action="#">
+					<input class="form__input" id="text" required placeholder="введи те, що шукаєш" name="text" maxlength="30" type="text">
+					<br>
+					<label class="form__label" for="text">Максимум <span>30</span> символів</label>
+				</form>
+			</div>
+			<div class="block">
+				<h1 data-speed="1000" class="block__title">Title</h1>
+			</div>
+			<a data-google="false" href="https://google.com" class="link">google.com</a>
+			<a data-google="false" href="https://google.com" class="link">google.com</a>
+			<a data-google="false" href="https://google.com" class="link">google.com</a>
+			<a data-google="false" href="https://google.com" class="link">google.com</a>
+			<a data-google="false" href="https://google.com" class="link">google.com</a>	
+		</main>
+		<footer class="footer"></footer>
+		<script src="js/script.js"></script>
+	</div>
+</body>
+</html>
